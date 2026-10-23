@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://oldachok.github.io',
+  base: 'https://oldachok.github.io/vite-study-test',
   input: {
     main: resolve(import.meta.dirname, 'index.html'),
     about: resolve(import.meta.dirname, 'about.html'),
